@@ -1,0 +1,261 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BebasNeue
+FamilyName:Bebas Neue
+StyleName:Regular
+MenuName:Bebas Neue
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bebas Neue
+WritingScript:Roman
+OutlineFileName:\BebasNeue.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72648
+FileModTime:1305716624
+NameArray:0,Mac,4,Bebas Neue
+NameArray:0,Win,1,Bebas Neue
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-Bold
+FamilyName:Fira Sans
+StyleName:Bold
+MenuName:Fira Sans Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Fira Sans Bold
+WritingScript:Roman
+OutlineFileName:\FiraSans-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:157540
+FileModTime:1401358144
+NameArray:0,Mac,4,Fira Sans Bold
+NameArray:0,Win,1,Fira Sans Bold
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-Book
+FamilyName:Fira Sans
+StyleName:Book
+MenuName:Fira Sans Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Fira Sans Book
+WritingScript:Roman
+OutlineFileName:\FiraSans-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:152884
+FileModTime:1401356600
+NameArray:0,Mac,4,Fira Sans Book
+NameArray:0,Win,1,Fira Sans Book
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-BookItalic
+FamilyName:Fira Sans
+StyleName:Book Italic
+MenuName:Fira Sans Book Italic
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:1
+FullName:Fira Sans Book Italic
+WritingScript:Roman
+OutlineFileName:\FiraSans-BookItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:157476
+FileModTime:1401356596
+NameArray:0,Mac,4,Fira Sans Book Italic
+NameArray:0,Win,1,Fira Sans Book Italic
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-Italic
+FamilyName:Fira Sans
+StyleName:Italic
+MenuName:Fira Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Fira Sans Italic
+WritingScript:Roman
+OutlineFileName:\FiraSans-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:155988
+FileModTime:1401358144
+NameArray:0,Mac,4,Fira Sans Italic
+NameArray:0,Win,1,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-Light
+FamilyName:Fira Sans
+StyleName:Light
+MenuName:Fira Sans Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Fira Sans Light
+WritingScript:Roman
+OutlineFileName:\FiraSans-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:152212
+FileModTime:1401358144
+NameArray:0,Mac,4,Fira Sans Light
+NameArray:0,Win,1,Fira Sans Light
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-MediumItalic
+FamilyName:Fira Sans
+StyleName:Medium Italic
+MenuName:Fira Sans Medium Italic
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Fira Sans Medium Italic
+WritingScript:Roman
+OutlineFileName:\FiraSans-MediumItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:159872
+FileModTime:1401358144
+NameArray:0,Mac,4,Fira Sans Medium Italic
+NameArray:0,Win,1,Fira Sans Medium Italic
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FiraSans-SemiBoldItalic
+FamilyName:Fira Sans
+StyleName:SemiBold Italic
+MenuName:Fira Sans SemiBold Italic
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:1
+FullName:Fira Sans SemiBold Italic
+WritingScript:Roman
+OutlineFileName:\FiraSans-SemiBoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:160308
+FileModTime:1401359660
+NameArray:0,Mac,4,Fira Sans SemiBold Italic
+NameArray:0,Win,1,Fira Sans SemiBold Italic
+NameArray:0,Win,16,Fira Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1365188379
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-It
+FamilyName:Source Sans Pro
+StyleName:Italic
+MenuName:Source Sans Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Source Sans Pro Italic
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Italic.ttf
+DataFormat:sfntData
+FileLength:117328
+FileModTime:1381472166
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Italic
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+MenuName:Source Sans Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Regular.ttf
+DataFormat:sfntData
+FileLength:149972
+FileModTime:1381472166
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+

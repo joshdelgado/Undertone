@@ -1,0 +1,80 @@
+[21-Nov-2014 00:30:29 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 00:30:29 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpzAJvbT' to 'uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 00:30:52 America/Chicago] PHP Warning:  move_uploaded_file(uploads/diffuse_dark2.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 00:30:52 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phppgUQ2d' to 'uploads/diffuse_dark2.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 00:33:54 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Photo on 11-19-14 at 20.26.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 00:33:54 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqGmhJk' to 'uploads/Photo on 11-19-14 at 20.26.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:12:38 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:13:41 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:14:23 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:14:44 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:16:35 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:16:58 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:18:38 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/170960267/next.json?mix_id=5167576&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 11:20:00 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:20:00 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpO8MPND' to 'uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:20:28 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:20:28 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXCajM9' to 'uploads/Screen Shot 2014-11-21 at 1.16.30 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:20:57 America/Chicago] PHP Warning:  move_uploaded_file(uploads/diffuse_dark2.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 11:20:57 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpLDHGQq' to 'uploads/diffuse_dark2.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 12:56:40 America/Chicago] PHP Warning:  move_uploaded_file(uploads/download.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 12:56:40 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php7dEJaN' to 'uploads/download.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 12:57:32 America/Chicago] PHP Warning:  move_uploaded_file(uploads/layzuh.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 12:57:32 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2nbBZS' to 'uploads/layzuh.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[21-Nov-2014 19:25:22 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:20 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:20 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:20 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:21 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:21 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[21-Nov-2014 19:27:21 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/530259836/next.json?mix_id=5002792&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[24-Nov-2014 10:55:47 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-10-30 at 10.32.44 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:55:47 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8kVsuq' to 'uploads/Screen Shot 2014-10-30 at 10.32.44 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:16 America/Chicago] PHP Warning:  move_uploaded_file(uploads/IMG_3750.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:16 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1uw74i' to 'uploads/IMG_3750.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:34 America/Chicago] PHP Warning:  move_uploaded_file(uploads/DSC_2740-2.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:34 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpy0ubgK' to 'uploads/DSC_2740-2.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:46 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-11-18 at 11.21.07 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 10:56:46 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpcsnYVp' to 'uploads/Screen Shot 2014-11-18 at 11.21.07 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 22:32:10 America/Chicago] PHP Warning:  move_uploaded_file(uploads/image-6.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[24-Nov-2014 22:32:10 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpkmN5sZ' to 'uploads/image-6.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[07-Feb-2015 15:04:33 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2014-11-18 at 1.00.58 AM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[07-Feb-2015 15:04:33 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJNFAw4' to 'uploads/Screen Shot 2014-11-18 at 1.00.58 AM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[27-Mar-2015 16:51:25 America/Chicago] PHP Warning:  move_uploaded_file(uploads/IMG_2087.gif): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[27-Mar-2015 16:51:25 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKnQTMo' to 'uploads/IMG_2087.gif' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[27-Mar-2015 16:51:50 America/Chicago] PHP Warning:  move_uploaded_file(uploads/IMG_2087.gif): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[27-Mar-2015 16:51:50 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpE0M093' to 'uploads/IMG_2087.gif' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:52:35 America/Chicago] PHP Warning:  move_uploaded_file(uploads/image-6.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:52:35 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpuqHU7t' to 'uploads/image-6.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:52:51 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2015-04-14 at 6.52.43 PM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:52:51 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpevcjs0' to 'uploads/Screen Shot 2015-04-14 at 6.52.43 PM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:54:48 America/Chicago] PHP Warning:  move_uploaded_file(uploads/yaz.jpg): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:54:48 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpCH256u' to 'uploads/yaz.jpg' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:55:39 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2015-04-14 at 6.55.30 PM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:55:39 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phppXGAJm' to 'uploads/Screen Shot 2015-04-14 at 6.55.30 PM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:55:39 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/799287474/next.json?mix_id=5013894&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[14-Apr-2015 17:55:50 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2015-04-14 at 6.55.30 PM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:55:50 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpTtbnzR' to 'uploads/Screen Shot 2015-04-14 at 6.55.30 PM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:55:50 America/Chicago] PHP Warning:  file_get_contents(http://8tracks.com/sets/799287474/next.json?mix_id=5013894&amp;api_version=3?api_key=155e00c31ee00eb4ee33bd0ac11592ef2deafc1a): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home3/jdislawl/public_html/undertone/php/8track.php on line 62
+[14-Apr-2015 17:56:15 America/Chicago] PHP Warning:  move_uploaded_file(uploads/search.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[14-Apr-2015 17:56:15 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBt5T9b' to 'uploads/search.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[25-Nov-2015 14:51:47 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2015-10-28 at 7.09.46 PM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[25-Nov-2015 14:51:47 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxVLtXx' to 'uploads/Screen Shot 2015-10-28 at 7.09.46 PM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[25-Nov-2015 14:53:00 America/Chicago] PHP Warning:  move_uploaded_file(uploads/Screen Shot 2015-11-01 at 4.19.37 PM.png): failed to open stream: No such file or directory in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38
+[25-Nov-2015 14:53:00 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKo1INX' to 'uploads/Screen Shot 2015-11-01 at 4.19.37 PM.png' in /home3/jdislawl/public_html/undertone/php/post_file.php on line 38

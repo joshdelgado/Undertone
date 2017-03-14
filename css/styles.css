@@ -1,0 +1,604 @@
+/*COLORS IN RGBA
+
+rgba(177,193,158,1)		green
+rgba(159,38,78,1)		pink/red
+rgba(30,42,71,1)		dark blue/purple
+rgba(251,249,248,1)		grey
+rgba(256,256,256,1)		white
+
+*/
+
+/*======================================== Universal/Heading Styles ========================================*/
+@font-face {
+    font-family: Fira Sans;
+    src: url(fonts/FiraSans-MediumItalic.otf);
+    font-weight: medium;
+    font-style: italic;
+}
+@font-face {
+    font-family: Fira Sans;
+    src: url(fonts/FiraSans-BookItalic.otf);
+    font-weight: book;
+    font-style: italic;
+}
+@font-face {
+    font-family: Fira Sans;
+    src: url(fonts/FiraSans-SemiBoldItalic.otf);
+    font-weight: SemiBold;
+    font-style: italic;
+}
+@font-face {
+    font-family: Fira Sans;
+    src: url(fonts/FiraSans-Book.otf);
+    font-weight: book;
+}
+@font-face {
+    font-family: Source Sans;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+    font-weight: regular;
+}
+body{
+	background: rgba(251,249,248,1);
+	font-family: Fira Sans, sans-serif;
+	font-weight: book;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 48px;
+	font-size: 48px;
+	font-size: 3rem;
+	font-weight: book;
+	font-style: italic;
+}
+h2{
+	font-family: Source Sans;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+	color: rgba(125,125,125,1);
+}
+h3{
+
+}
+p{
+
+}
+span{
+
+}
+/*======================================== Page CSS ========================================*/
+/*------------------------- Nav -------------------------*/
+nav{
+	background: rgba(30,42,71,1);
+	width: 100%;
+	padding: 8px;
+	padding: 8px;
+	padding: .5rem;
+	position: fixed;
+	z-index: 300;
+}
+nav img{
+	width: 40%;
+	max-width: 192px;
+	max-width: 12rem;
+	margin: 8px 16px;
+	margin: 8px 16px;
+	margin: .5rem 1rem;
+}
+nav button{
+	color: #fff;
+	float: right;
+	margin: 4px 32px 0 0;
+	margin: 4px 32px 0 0;
+	margin: .3rem 2rem 0 0 ;
+	padding: 12px 32px;
+	padding: 12px 32px;
+	padding: .75rem 2rem;
+	border-radius: 5px;
+	background: rgba(159,38,78,1);
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	width: 40%;
+	max-width: 12rem;
+}
+/*------------------------- head -------------------------*/
+header{
+	color: rgba(256,256,256,1);
+	background: url(../img/background.jpg) center no-repeat;
+	background-size: cover;
+	height: 65%;
+	min-height:450px;
+}
+header img{
+	width: 67%;
+	max-width: 208px;
+	max-width: 208px;
+	max-width: 13rem;
+	padding: 32px;
+	padding: 32px;
+	padding: 2rem;
+}
+header div{
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	max-width: 640px;
+	max-width: 640px;
+	max-width: 40rem;
+}
+header div p{
+	margin: 32px 0 0 0;
+	margin: 32px 0 0 0;
+	margin: 2rem 0 0 0;
+
+}
+header a{
+	text-decoration: none;
+}
+header button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-top: 32px;
+	margin-top: 2rem;
+	margin-bottom: 80px;
+	margin-bottom: 80px;
+	margin-bottom: 5rem;
+	padding: 12px 32px;
+	padding: 12px 32px;
+	padding: .75rem 2rem;
+	border-radius: 5px;
+	background: rgba(177,193,158,1);
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+}
+header button:hover{
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+/*------------------------- main -------------------------*/
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+#bgColor{
+	background-color: rgba(160,40,80,1);
+	width: 100%;
+	padding: 80px 0;
+	padding: 80px 0;
+	padding: 5rem 0;
+}
+#mainBody{
+	width: 95%;
+	max-width: 960px;
+	max-width: 960px;
+	max-width: 60rem;
+	background: rgba(256,256,256,1);
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 40px 0px;
+	padding: 40px 0px;
+	padding: 2.5rem 0rem;
+}
+#mainBody p{
+	text-align: center;
+	color: rgba(125,125,125,1);
+	font-weight: book;
+	text-transform: uppercase;
+}
+.flex{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.space-between{
+	-webkit-box-pack:space-between;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:space-between;
+	        justify-content:space-between;
+}
+.direction-column{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.direction-row{
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.justify-between{
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.align-center{
+	-webkit-box-align:start;
+	-webkit-align-items:flex-start;
+	    -ms-flex-align:start;
+	        align-items:flex-start;
+}
+#fancyHR{
+	background: url('../img/fancyHr.jpg') no-repeat;
+	display: block;
+	width: 95%;
+	max-width: 831px;
+	height: 55px;
+	margin: 0 auto;
+}
+.loader{
+	height:100%;
+	width:100%;
+	display:none;
+	position:fixed;
+	z-index:999;
+	top:0; left:0;
+	background-color:rgba(255,255,255,0.75);
+}
+.loader img{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	display:block;
+	margin:0 auto;
+}
+.imgOption{
+	background: rgba(249,247,246,1);
+	width: 40.5%;
+	margin-left: 6.15%;
+	height: 240px;
+	height: 240px;
+	height: 15rem;
+	border: 1px solid rgba(227,225,222,1);
+	text-align: center;
+	cursor: pointer;
+}
+.imgOptionWide{
+	display:none;
+	background: rgba(249,247,246,1);
+	width: 86.7%;
+	margin-left: 6.15%;
+	height: 232px;
+	border:5px dashed rgba(227,225,222,1);
+	text-align: center;
+	cursor: pointer;
+}
+#mainBody div p{
+	margin: 112px 0;
+	margin: 112px 0;
+	margin: 7rem 0;
+	color: rgba(125,125,125,1);
+	font-weight: book;
+	font-style: italic;
+	text-transform: none;
+}
+#mainBody .imgOptionWide .message{
+	margin: 108px 0;
+	color: rgba(125,125,125,1);
+	font-weight: book;
+	font-style: italic;
+	text-transform: none;
+}
+#mainBody img{
+	max-width: 640px;
+	max-width: 640px;
+	max-width: 40rem;
+}
+#capture{
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	padding: 12px 32px;
+	padding: .75rem 2rem;
+	border-radius: 5px;
+	background: rgba(159,38,78,1);
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+}
+/* - - - - - - - - - - - - the following is code for the '2nd' page - - - - - - - - - - */
+#lifeForce{
+	max-width: 960px;
+	max-width: 960px;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+.preview{
+	background: rgba(256,256,256,1);
+	padding: 32px;
+	padding: 32px;
+	padding: 2rem;
+	width: 42%;
+	height: 240px;
+	height: 240px;
+	height: 15rem;
+	margin: 80px 0px 32px 0px;
+	margin: 80px 0px 32px 0px;
+	margin: 5rem 0rem 2rem 0rem;
+	border-radius: 10px;
+	-webkit-box-ordinal-group: 1;
+	-webkit-order: 1;
+    -ms-flex-order: 1;
+	order: 1;
+}
+.preview img{
+	max-width: 100%;
+	max-height: 200px;
+	max-height: 200px;
+	max-height: 12.5rem;
+	margin: 0 auto;
+}
+#stuffhere{
+	width: 896px;
+	width: 56rem;
+	max-width: 1056px;
+	max-width: 66rem;
+	background: rgba(256,256,256,1);
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-top: 2rem;
+	margin-bottom: 32px;
+	margin-bottom: 2rem;
+	border-radius: 10px;
+	padding: 32px;
+	padding: 2rem;
+}
+#colorPalette{
+	background: rgba(256,256,256,1);
+	padding: 32px;
+	padding: 2rem;
+	width: 42%;
+	height: 240px;
+	height: 15rem;
+	margin: 80px 0px 0px 0px;
+	margin: 5rem 0rem 0rem 0rem;
+	border-radius: 10px;
+	-webkit-box-ordinal-group: 2;
+	-webkit-order: 2;
+	-ms-flex-order: 2;
+	order: 2;
+}
+#colorsInHere{
+	border-top: dotted 1px;
+	border-bottom: dotted  1px;
+	padding: 32px 0;
+	padding: 32px 0;
+	padding: 2rem 0;
+}
+.swatches{
+	width: 40px;
+	width: 2.5rem;
+	height: 40px;
+	height: 2.5rem;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-left: 8px;
+	margin-left: .5rem;
+}
+#webcam{
+	width:100%;
+}
+#webcam video{
+	display:block;
+	margin:0 auto;
+}
+/*------------------------- Footer -------------------------*/
+footer{
+	position: relative;
+	background: rgba(30,42,71,1);
+	padding: 8px;
+	padding: 8px;
+	padding: .5rem;
+	text-align: center;
+	color: rgba(256,256,256,1);
+	clear: both;
+}
+
+/*=========== Kat Styles ==============*/
+#audioplayer{
+	width:auto;
+	margin: 0 auto;
+	padding:30px 0;
+	background-color:#fff;
+	border-radius: 10px;
+}
+#pButton{
+    height:130px; 
+    width: 130px;
+    border: none;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline:none;
+    cursor:pointer;
+}
+
+.play{background: url('../img/play_button.png') ;}
+.pause{background: url('../img/pause_button.png') ;}
+
+#timeline{
+	width: 100%;
+	height: 8px;
+	margin-top: -11px;
+	background: rgba(183, 200, 165, 0.5);
+}
+#playhead{
+	width: 22px;
+	height: 8px;
+	/* border-radius: 50%; */
+	margin-top: 1px;
+	background: rgba(183, 200, 165, 1);
+}
+.player-main{
+	background-color:#f0efee;
+	border:1px solid #e7e6e6;
+	width:90%;
+	margin:0 auto;
+}
+.playlist-based{
+	font-family:'source sans pro','sans-serif';
+	text-transform: uppercase;
+	font-size: 0.75em;
+	letter-spacing: 1px;
+}
+.playlist-emotion{
+	font-family:'Fira Sans','sans-serif';
+	font-style:italic;
+	font-weight:600;
+	font-size: 2.5em;
+}
+.mood-title{
+	margin:0 0 0 40px;
+}
+.player-song{
+	margin: 27px 0 0;
+	color:#939598;
+	width:50%;
+}
+.song-name{
+	font-family:'Fira Sans','sans-serif';
+	font-style:italic;
+	font-size: 1.2em;
+	line-height: 1em;
+	width:66%;
+}
+.artist-name{
+	font-family:'source sans pro','sans-serif';
+	font-size: 0.9em;
+}
+.album-name{
+	font-family:'source sans pro','sans-serif';
+	font-style:italic;
+	font-size: 0.9em;
+}
+.timestamp{
+	font-family:'bebas neue','sans-serif';
+	font-size: 5em;
+	width: 33%;
+	text-align: right;
+	margin: 12px 20px 0 0;
+	color: #d4d3d3;
+}
+
+.imageHolder{
+	text-align: center;
+	margin:0 auto;
+	display: block;
+}
+
+/*======================================== Mobile Stylings ========================================*/
+/*------------------------- Media query 1 -------------------------*/
+@media (max-width: 1000px){
+	#fancyHR{
+		background: rgba(152,152,152,1);
+		height: 2px;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#stuffhere{
+		width: 84%;
+		padding:5%;
+	}
+}
+@media (max-width: 768px){
+	 .preview, #colorPalette{
+	 	display: block;
+	 	margin: 0 auto;
+		margin-top: 3rem;
+		width: 85%;		
+	 }
+}
+
+@media (max-width: 768px){
+	 #lifeForce{
+ 	    -webkit-box-orient: vertical;
+ 	 -webkit-box-direction: normal;
+ 	-webkit-flex-direction: column;
+ 	    -ms-flex-direction: column;
+ 	        flex-direction: column;
+  -webkit-box-pack: center;
+   -webkit-justify-content: center;
+     -ms-flex-pack: center;
+           justify-content: center;
+
+	 }
+}
+
+/*------------------------- Media query 2 -------------------------*/
+@media (max-width: 580px){
+	body{
+		background: rgba(256,256,256,1);)
+	}
+	header{
+		height: 100%;
+	}
+	nav button{
+		padding: 2%;
+	}
+	#stuffhere{
+		width: 90%;
+		padding:5%;
+	}
+	#fancyHR{
+		display: none;
+	}
+	#dropbox{
+		margin-top: 1rem;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	#dropbox>*{
+		width: 85%;
+		margin:0 auto 35px;
+	}
+	#dropbox>*:nth-child(3){
+		display: none;
+	}
+
+	#dropbox>*:nth-child(4){
+		margin:0 auto;
+	}
+
+	#colorPalette, .preview{
+		width: 90%;
+		padding: 3rem 5% 0;
+		margin:0 auto inherit;
+	}
+	.mood-title{
+		margin:0;
+	}
+	.timestamp{
+		font-size: 4rem;
+	}
+	.player-main{
+		width: 100%;
+		overflow: hidden;
+	}
+}
+/*------------------------- Media query 3 -------------------------*/
+@media (max-width: 318px){
+	nav button{
+		display: none;
+	}
+	nav img{
+		width: 67%;
+	}
+}
+

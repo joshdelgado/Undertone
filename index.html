@@ -1,0 +1,103 @@
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UNDERTONE</title>
+	<meta name="description" content="Elijah Vazquez's Portfolio Site">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jquery-2.1.1.min.js"></script><style type="text/css"></style>
+	<script>
+		$(document).ready(function() {
+			$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		});
+	</script>
+  <script src="js/color-thief.js"></script>
+  <script src="js/jquery.filedrop.js"></script>
+  <script src="js/say-cheese.js"></script>
+  <script src="js/dropScripts.js"></script>
+</head>
+<body>
+<div class="loader">
+	<img src="img/loader.gif">
+</div>
+<nav>
+	<div id="hideMe" style="display: none;">
+		<a href="#top"><img id="" src="img/undertoneLogo.png" alt=""></a>
+		<a href="#mainBody"><button class="upload-image">Upload New Image</button></a>
+	<div>
+</div></div></nav>
+<header>
+	<img id="top" src="img/logo.png" alt="Undertone Logo">
+	<div>
+		<h1>Ready for a feel trip?</h1>
+		<p>Undertone finds the mood of your image and creates a playlist based on the dominant colors. Less time thinking, more time feeling.</p>
+		<a href="#bgColor"><button>Bring on the feels</button></a>
+	</div>
+</header>
+<section id="bgColor">
+	<section id="mainBody">
+		<p>Choose a photo</p>
+		<div id="fancyHR"></div>
+		<div class="flex" id="dropbox">
+			<input id="click-image-upload" class="hidden" type="file">
+			<div class="imgOption upload-image"><p class="message">click to upload</p></div>
+			<div class="imgOption" id="camera"><p class="message">take a photo</p></div>
+			<div class="imgOptionWide" id="drag-image"><p class="message">drag photo here</p></div>
+		</div>
+		<div>
+			<div id="webcam">
+				<button id="capture" style="display: none;">Take photo!</button>
+				<div id="webcam-inner"></div>
+			</div>
+		</div>
+	</section>
+</section>
+<section id="lifeForce" class="flex direction-row justify-between">	
+	<section id="colorPalette" style="display: none;">
+	</section>
+</section>
+	<section id="stuffhere" style="display: none;">
+		<audio id="player">
+			<source src="" type="audio/mpeg">
+		</audio>
+		<div id="audioplayer">
+			<div class="mood-title">
+				<div class="playlist flex direction-column">
+					<div class="playlist-based">Playlist Based On</div>
+					<div class="playlist-emotion">This Mood</div>
+				</div>
+			</div>
+			<div class="player-main">
+				<div class="player-contents flex direction-row align-center space-between">
+					<button id="pButton" class="play"></button>
+					<div class="player-song">
+						<p class="song-name">Song Title</p>
+						<p class="artist-name">Artist</p>
+					</div>
+					<div class="timestamp">-:--</div>
+				</div>
+				<div id="timeline">
+					<div id="playhead"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+<footer>
+	<p>Created by ByeFelicia</p>
+</footer>
+
+</body></html>
